@@ -1,0 +1,59 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+html,
+body .app {
+  color: #333333;
+  font-family: Arial, Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, sans-serif;
+  background-color: #e6e6e6;
+}
+
+.app-container {
+  max-width: 10rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  overflow-y: hidden;
+}
+.relative {
+  position: relative;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+/*单行溢出*/
+.one-txt-cut {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.two-txt-cut {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.three-txt-cut {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
