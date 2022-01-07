@@ -8,3 +8,12 @@
 框架基础github：https://github.com/sunniejs/vue-h5-template.git
 
 在该框架上略作调整
+
+  # 安装
+  npm run install
+
+  # 启动开发环境
+  npm run serve
+
+  # 打包
+  npm run build
